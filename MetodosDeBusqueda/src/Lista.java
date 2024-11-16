@@ -10,7 +10,7 @@ public class Lista {
         tamano = 0;
     }
 
-    // Método para agregar un producto a la lista
+    // Metodo para agregar un producto a la lista
     public void agregar(String producto, JTextArea textArea) {
         Nodo nuevoNodo = new Nodo(producto);
         if (inicio == null) {
@@ -26,7 +26,7 @@ public class Lista {
         actualizarLista(textArea);
     }
 
-    // Método para eliminar un producto
+    // Metodo para eliminar un producto
     public boolean eliminar(String producto, JTextArea textArea) {
         if (inicio == null) {
             JOptionPane.showMessageDialog(null, "El inventario está vacío.");
